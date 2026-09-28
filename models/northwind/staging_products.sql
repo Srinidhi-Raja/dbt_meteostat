@@ -7,5 +7,5 @@ SELECT
     ,product_name
     ,supplier_id
     ,category_id
-    ,unitprice::NUMERIC AS unit_price
+    ,unit_price::NUMERIC AS unit_price
 FROM source_data
