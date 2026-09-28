@@ -6,9 +6,9 @@ SELECT
     order_id
     ,customer_id
     ,employee_id
-    ,orderdate::DATE AS order_date
-    ,requireddate::DATE AS required_date
-    ,shippeddate::DATE AS shipped_date
+    ,order_date::DATE AS order_date
+    ,required_date::DATE AS required_date
+    ,shipped_date::DATE AS shipped_date
     ,ship_via
     ,ship_city
     ,ship_country

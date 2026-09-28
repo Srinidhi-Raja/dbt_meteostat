@@ -5,7 +5,7 @@ WITH source_data AS (
 SELECT
     order_id
     ,product_id
-    ,unitprice::NUMERIC AS unit_price
+    ,unit_price::NUMERIC AS unit_price
     ,quantity::INT AS quantity
     ,discount::NUMERIC AS discount
 FROM source_data
